@@ -419,7 +419,8 @@ p {
 #leptospiroseMobile, 
 #hepatiteaMobile,
 #febretifoideMobile,
-img[alt="AboutMobile"]{
+img[alt="AboutMobile"],
+img[alt="HomeMobile"]{
   display: none;
 }
 
@@ -458,7 +459,8 @@ img[alt="AboutMobile"]{
   #leptospiroseMobile, 
   #hepatiteaMobile,
   #febretifoideMobile,
-  img[alt="AboutMobile"]{
+  img[alt="AboutMobile"],
+  img[alt="HomeMobile"]{
     display: block;
   }
 
@@ -467,7 +469,8 @@ img[alt="AboutMobile"]{
   #leptospirose, 
   #hepatitea,
   #febretifoide,
-  img[alt="About"]{
+  img[alt="About"],
+  img[alt="Home"]{
     display: none;
   }
 }

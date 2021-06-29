@@ -45,11 +45,15 @@ function clearContent(){
 function loadHome(){
     clearContent()
     let homeElement = document.createElement('img')
+    let homeMobile = document.createElement('img')
     let content = document.getElementById("content")
 
     homeElement.setAttribute("src","./images/home_picture.png")
-    homeElement.setAttribute("alt","https://www.who.int/health-topics/water-sanitation-and-hygiene-wash")
+    homeElement.setAttribute("alt","Home")
+    homeMobile.setAttribute("src","./images/home_mobile.png")
+    homeMobile.setAttribute("alt","HomeMobile")
     content.appendChild(homeElement)
+    content.appendChild(homeMobile)
 }
 
 
