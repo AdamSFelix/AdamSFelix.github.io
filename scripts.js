@@ -18,15 +18,19 @@ function loadSection(imagem,section){
     // Carregar elementos das seções
     switch (section){
         case 'home':
+            clearContent()
             loadHome()
             break
         case 'doenças':
+            clearContent()
             loadDiseases()
             break
         case 'curiosidades':
+            clearContent()
             loadCuriosities()
             break
         case 'sobre':
+            clearContent()
             loadAbout()
             break
         default:
@@ -36,7 +40,7 @@ function loadSection(imagem,section){
 
 
 function clearContent(){
-    let children = document.getElementById('content').childNodes
+    let children = document.getElementById("content").childNodes
     children.forEach(child => {
         child.remove()
     });
