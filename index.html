@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BRn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doenças transmitidas pela água</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+</head>
+<body>
+    <!-- #region ID -->
+    <div class="aluno">
+        <p>ADAM SERAFIM FELIX</p>
+    </div>
+    <div class="logo">
+        <img src="./images/marista.png" alt="Logo Marista">
+    </div>
+    <!-- #endregion -->
+    
+    <div class="header">
+        <div class="inner-header flex">
+            <h1>Doenças transmitidas pela água</h1>
+        </div>
+        
+        <!--Waves Container-->
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255,1)" />
+            </g>
+            </svg>
+        </div>
+        <!--Waves end-->
+    </div>
+    
+    <div id="menu" style="text-align: center;">
+        <div class="item">
+            <p>Home</p>
+            <img class="registro" src="./images/Wheel.png" alt="Registro de água" height="80px" onclick="loadSection(this, 'home')">
+        </div>
+        <div class="item">
+            <p>Doenças</p>
+            <img class="registro" src="./images/Wheel.png" alt="Registro de água" height="80px" onclick="loadSection(this, 'doenças')">
+        </div>
+        <div class="item">
+            <p>Curiosidades</p>
+            <img class="registro" src="./images/Wheel.png" alt="Registro de água" height="80px" onclick="loadSection(this, 'curiosidades')">
+        </div>
+        <div class="item">
+            <p>About</p>
+            <img class="registro" src="./images/Wheel.png" alt="Registro de água" height="80px" onclick="loadSection(this, 'sobre')">
+        </div>
+    </div>
+
+    <!-- Fundo -->
+    <div class="ocean">
+        <div class="bubble bubble--1"></div>
+        <div class="bubble bubble--2"></div>
+        <div class="bubble bubble--3"></div>
+        <div class="bubble bubble--4"></div>
+        <div class="bubble bubble--5"></div>
+        <div class="bubble bubble--6"></div>
+        <div class="bubble bubble--7"></div>
+        <div class="bubble bubble--8"></div>
+        <div class="bubble bubble--9"></div>
+        <div class="bubble bubble--10"></div>
+        <div class="bubble bubble--11"></div>
+        <div class="bubble bubble--12"></div>
+    </div>
+
+    <!-- Seção HOME -->
+    <div id="content">
+        <img src="./images/home_picture.png" 
+            alt="https://www.who.int/health-topics/water-sanitation-and-hygiene-wash">
+    </div>
+
+</body>
+</html>
