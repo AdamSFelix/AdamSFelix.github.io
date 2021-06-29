@@ -1,15 +1,16 @@
 let degree = 180
 
-//#region Curiosidades
-
 const fatos= [
-    "",
-    "",
-    "",
+    "A pessoa que criou a vacina da cólera se chamava Vladímir Khavkin ou Waldemar Haffkine (como é mais conhecido fora da Rússia)",
+    "A cólera é a primeira pandemia da modernidade",
+    "O médico inglês John Snow descobriu a transmissão da cólera e salvou vidas",
+    "A leptospirose é um grupo de doenças infecciosas causadas por bactérias do gênero Leptospira, sendo que apenas para a espécie Leptospira interrogans, existem mais de 195 sorotipos diferenciados, agrupados em 19 sorogrupos",
+    "Os ratos, por serem os principais transmissores da leptospirose para o homem, devem ser controlados o mais rápido possível",
+    "Em 2017, 45% da população mundial (3,4 bilhões de pessoas) utilizavam serviços de saneamento básico",
+    "Estimasse que pelo menos 10% da população mundial consome comida irrigada por água de esgoto",
+    "Aproximadamente 36 mihões de hectares (tamanho equivalente da Alemanha) de área cultivada próxima de centros urbanos são irrigadas com água de esgoto.",
+    "2 bilhões de pessoas ainda não possuem locais para higiene sanitária básica como banheiros ou latrinas",
 ]
-
-
-//#endregion
 
 
 function clearContent(){
@@ -167,6 +168,14 @@ function loadDiseases(){
 
 function loadCuriosities(){
     clearContent()
+    let content = document.getElementById("content")
+    let curiosidade = document.createElement('p')
+    curiosidade.setAttribute("class", "curiosidades")
+    
+    let randomFactN = Math.floor(Math.random()*fatos.length)
+    curiosidade.innerHTML = fatos[randomFactN]
+
+    content.appendChild(curiosidade)
 }
 
 
