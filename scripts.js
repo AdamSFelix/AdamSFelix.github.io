@@ -1,6 +1,6 @@
 let degree = 180
 
-const fatos= [
+const fatos= Array(
     "A pessoa que criou a vacina da cólera se chamava Vladímir Khavkin ou Waldemar Haffkine (como é mais conhecido fora da Rússia)",
     "A cólera é a primeira pandemia da modernidade",
     "O médico inglês John Snow descobriu a transmissão da cólera e salvou vidas",
@@ -9,8 +9,8 @@ const fatos= [
     "Em 2017, 45% da população mundial (3,4 bilhões de pessoas) utilizavam serviços de saneamento básico",
     "Estimasse que pelo menos 10% da população mundial consome comida irrigada por água de esgoto",
     "Aproximadamente 36 mihões de hectares (tamanho equivalente da Alemanha) de área cultivada próxima de centros urbanos são irrigadas com água de esgoto.",
-    "2 bilhões de pessoas ainda não possuem locais para higiene sanitária básica como banheiros ou latrinas",
-]
+    "2 bilhões de pessoas ainda não possuem locais para higiene sanitária básica como banheiros ou latrinas"
+)
 
 
 function clearContent(){
