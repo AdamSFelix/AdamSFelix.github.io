@@ -1,9 +1,24 @@
 let degree = 180
 
-//#region Listas do conteúdo
+//#region Curiosidades
+
+const fatos= [
+    "",
+    "",
+    "",
+]
 
 
 //#endregion
+
+
+function clearContent(){
+    let children = document.getElementById("content").childNodes
+    children.forEach(child => {
+        child.remove()
+    });
+}
+
 
 function loadSection(imagem,section){
     // Limpar div .content
@@ -38,13 +53,6 @@ function loadSection(imagem,section){
     }
 }
 
-
-function clearContent(){
-    let children = document.getElementById("content").childNodes
-    children.forEach(child => {
-        child.remove()
-    });
-}
 
 function loadHome(){
     clearContent()
@@ -176,6 +184,7 @@ function loadAbout(){
     content.appendChild(aboutMobile)
 }
 
+
 //#region Slideshow
 
 var slideIndex = 1;
@@ -209,13 +218,3 @@ function showSlides(n) {
 
 //#endregion
 
-//#region Curiosidades
-
-const fatos= [
-    "",
-    "",
-    "",
-]
-
-
-//#endregion

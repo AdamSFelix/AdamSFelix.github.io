@@ -1,5 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
+/* #region Elements */
+
 body {
   margin:0;
   overflow: scroll;
@@ -18,6 +20,8 @@ p {
   color: #333333;
   margin: 5px;
 }
+
+/* #endregion */
 
 /* #region Topo */
 .aluno{
@@ -414,6 +418,8 @@ p {
 
 /* #endregion */
 
+/* #region Mobile */
+
 #dengueMobile, 
 #coleraMobile, 
 #leptospiroseMobile, 
@@ -470,3 +476,5 @@ img[alt="HomeMobile"]{
     display: none;
   }
 }
+
+/* #endregion */
